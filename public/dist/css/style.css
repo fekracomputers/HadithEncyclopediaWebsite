@@ -1,0 +1,436 @@
+body{
+    background: url("../img/symphony.png");
+    margin: 0;
+    padding: 0;
+}
+.head-font{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.navbar-inverse {
+    height: 50px ;
+}
+.img-logo{
+    margin-top: -15px;
+    height: 50px;
+}
+.shadow{
+    box-shadow: 2px 3px 5px #000;
+}
+.img-up{
+    height: 100px;
+    margin:auto;
+}
+.categories{
+    background: #fff;
+    padding:20px 15px;
+}
+.cat-img{
+    border-radius: 0 20px 20px 0;
+}
+.cat-ui{
+    background: #4d9799;
+    border:2px solid #3c7577;
+    border-radius: 20px;
+    box-shadow: 2px 3px 3px #787878;
+}
+.book-ui{
+    background: #fff;
+    box-shadow: 2px 3px 3px #000;
+    height: 150px;
+}
+.img-book{
+    height: 150px;
+}
+.margin-top{
+    margin-top: 25px;
+}
+.margin-bottom{
+    margin-bottom: 20px;
+}
+.btn-ms{
+    font-size: 20px;
+}
+.books{
+    padding:10px;
+}
+.authors{
+    padding:10px;
+    background: #fff;
+}
+.author-panel{
+    padding:15px;
+}
+.search-area-wrapper{
+    padding:10px;
+    background: #43cea2; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #43cea2 , #185a9d); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #43cea2 , #185a9d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.search-control{
+    padding: 20px 50px;
+}
+.btn-more{
+    width:100%;
+    font-size: 24px;
+}
+.text-par{
+    line-height: 36px;
+}
+.margin-right-mins{
+    margin-right: -15px;
+}
+.height-author{
+    height: 200px;
+}
+.single-book{
+    background: #fff;
+    padding:15px;
+}
+.icon-child{
+    margin-top: -20px;
+    font-size: 20px;
+}
+.hadith-panel{
+    padding:20px 10px;
+}
+.hadith-box{
+    background: #fff;
+    box-shadow: 1px 3px 5px #000;
+}
+.rawy-bottom{
+    border-top:2px solid #3a8789;
+    padding:10px;
+}
+.img-slider{
+    width:100%;
+}
+.lg-icon{
+    font-size: 20px !important;
+}
+.title-subject{
+    background: #3a8789;
+    color: #fff;
+    padding: 6px;
+}
+.title-rawy{
+    background: #F1F1F1;
+    padding: 5px;
+}
+.more-height{
+    line-height: 38px;
+    font-size: 18px;
+
+}
+.nav-icon , .nav-icon:active , .nav-icon:focus{
+    font-size: 18px;
+    width:40px;
+    border-radius: 50px;
+    color:#000;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f8f9+0,e5ebee+50,d7dee3+51,f5f7f9+100;White+Gloss */
+    background: rgb(246,248,249); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(246,248,249,1) 0%, rgba(229,235,238,1) 50%, rgba(215,222,227,1) 51%, rgba(245,247,249,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    border: 1px solid #3a8789;
+}
+.nav-icon:hover{
+    color: #3a8789;
+}
+
+.nav-lf{
+    font-size: 20px;
+    width:40px;
+    border-radius: 50px;
+    padding:10px;
+}
+.searchid , .searchtef{
+    width:75px !important;
+    height: 40px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.margin-md-top{
+    margin-top: 40px;
+}
+.margin-left-icon{
+    margin-left: -400px;
+}
+.margin-right-icon{
+    margin-right: -400px;
+}
+.margin-icon{
+    margin-top:150%;
+}
+.disablebtn{
+    background: #ddd !important;
+    pointer-events: none;
+    cursor: default;
+}
+.white-color{
+    color: #fff;
+}
+.white-color:hover{
+    color: #fff;
+}
+.height-panel{
+    height: 200px;
+}
+.matn{
+    color: #B11919;
+    padding:10px;
+}
+.matn:hover ,.matn:focus{
+    color: #B11919;
+    text-decoration: none;
+}
+.search-body{
+    background: #fff;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    padding:0px 10px;
+}
+.padding-title{
+    padding-left:20px;
+}
+.paginate_enabled_next ,.paginate_enabled_previous ,.paginate_disabled_previous{
+    padding: 5px 10px;
+    background: #ddd;
+    border: 1px solid #C5C5C5;
+    border-radius: 10px;
+    margin:10px;
+    color: #000;
+    font-size: 18px;
+    cursor:alias ;
+}
+.paging_four_button ,.dataTables_info{
+    margin-top: 20px;
+}
+tr.odd >td, tr.even>td{
+    line-height: 30px !important;
+}
+.text-msdr{
+    font-size: 18px !important;
+    font-weight: bold;
+}
+.img-index{
+    z-index: 10;
+    padding: 0;
+}
+.panel-index{
+    padding: 0;
+    margin-right: -43px;
+    margin-top: 15px;
+    z-index: 1;
+}
+.panel-shdow{
+    box-shadow: 2px 2px 3px #000;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f8f9+0,e5ebee+50,d7dee3+51,f5f7f9+100;White+Gloss */
+    background: rgb(246,248,249); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(246,248,249,1) 0%, rgba(229,235,238,1) 50%, rgba(215,222,227,1) 51%, rgba(245,247,249,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.img-shadow{
+    box-shadow: 2px 2px 3px #000;
+    border-radius: 50px;
+}
+.black-color{
+    color: #000000;
+}
+.margin-right{
+    margin-right: 25px;
+}
+.about{
+    background: #fff;
+}
+.selected{
+    background: #3a8789;
+    color: #fff !important;
+}
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+}
+
+* html .ui-autocomplete {
+    height: 200px;
+}
+.red{
+    color: darkred;
+}
+.green{
+    color: darkgreen;
+}
+.btn-pos{
+    position: absolute;
+    top: 150px;
+    left: 25px;
+}
+.btn-read{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.img-bannar{
+    width: 100%;
+}
+.height-narrator{
+    height: 280px;
+}
+.head-height{
+    height: 120px;
+}
+#rawy-filter{
+    width: 80%;
+}
+#loadMoreNarr{
+    display: none;
+}
+.img-tef{
+    display: none;
+    float: right;
+    margin-left: 20px;
+    height: 40px;
+}
+@media (max-width: 992px) {
+    .height-panel{
+        height:280px;
+    }
+    .btn-pos{
+        top: 215px;
+    }
+}
+
+@media (max-width: 767px) {
+    .height-panel{
+        height:200px;
+    }
+    .margin-icon{
+        margin-top:0px;
+    }
+    .panel-index{
+        margin-right: -100px;
+    }
+    .btn-pos{
+        top: 150px;
+    }
+
+    .margin-right{margin-right:60px;}
+    .margin-md-top{
+        margin-top: 25px;
+    }
+    #rawy-filter{
+        width:70%;
+    }
+}
+@media (max-width: 768px) and (min-width: 520px ) {
+    .xs-device{
+        width:50% !important;
+        color: #881400;
+    }
+
+}
+@media (max-width: 580px){
+    .nav-icon{
+        font-size: 16px;
+        width:33px;
+        border-radius: 50px;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+    .nav-lf{
+        font-size: 20px;
+        width:40px;
+        border-radius: 50px;
+        padding: 12px;
+    }
+    .height-panel{
+        height:250px;
+    }
+    .btn-pos{
+        top: 200px;
+    }
+    .padding-remove{
+        padding: 0;
+    }
+    .padding-remove h4{
+        font-size: 16px;
+    }
+}
+@media (max-width: 480px) {
+    .book-comm{
+        margin-bottom:10px;
+    }
+    .md-text{
+        font-size: 28px;
+    }
+    .mini-xs{
+        padding:0;
+    }
+    .container{
+        width:100%;
+    }
+    .height-panel{
+        height:250px;
+    }
+    .panel-index{
+        margin-right: -40px;
+    }
+    .margin-right{margin-right:60px;}
+    .main{
+        width:100% !important;
+        margin:0;
+        padding: 0px 5px;
+    }
+    .shadow{
+        box-shadow: none;
+    }
+    .nav-lf{
+        padding:12px;
+    }
+    #rawy-filter{
+        width: 100%;
+    }
+
+}
+@media (max-width: 375px) {
+    .height-panel{
+        height:310px;
+    }
+    .img-shadow{
+    margin-right: 15px;
+    }
+    .panel-index{
+        margin-right: -25px;
+    }
+    .btn-pos{
+        top: 270px;
+    }
+    .margin-right{margin-right:20px;}
+}
+@media (max-width: 321px) {
+    .img-shadow{
+        width:90px;
+        border-radius: 50px;
+    }
+    .panel-index{
+        margin-right: -25px;
+    }
+    .margin-right{
+        margin-right:25px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+
